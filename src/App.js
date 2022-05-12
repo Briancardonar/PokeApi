@@ -1,7 +1,7 @@
 import './App.css';
 import RenderData from './components/InfoCard';
 
-function App() {
+const Render = () => {
   return (
     <div className="App">
       <RenderData/>
