@@ -7,7 +7,6 @@ const RenderData = () => {
   const getDataPokemon = useCallback(async () => {
     const respuesta = await fetch("https://pokeapi.co/api/v2/pokemon/");
     const data = await respuesta.json()
-    return await data;
   }, [])
 
   useEffect(() => {
